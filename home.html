@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>AnimeT</title>
-  
-  
- 
+
+
+
 </head>
 
 
 
+
+
 <body>
-    
-    <main class="mx-auto container">
- <nav class="bg-gray-700">
-  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-    <div class="relative flex h-16 items-center justify-between">
-      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-        <button type="button" id="mobile-toggle" command="--toggle" commandfor="mobile-menu" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
-          <span class="absolute -inset-0.5"></span>
-          <span class="sr-only">Open main menu</span>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 in-aria-expanded:hidden">
-            <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6 not-in-aria-expanded:hidden">
-            <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </button>
-      </div>
-      
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
-        <div class="flex shrink-0 items-center text-white">
-AnimeT        </div>
-        <div class="  hidden sm:ml-6 sm:block " id="mobile-menu">
-          <div class="flex space-x-4">
-            <a href="home.html"  class="rounded-md py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Characters</a>
-            <a href="anime.html" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Animes</a>
+
+  <main class="mx-auto container">
+    <nav class="bg-gray-700">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <button type="button" id="mobile-toggle"
+              class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset">
+              <span class="absolute -inset-0.5"></span>
+              <span class="sr-only">Open main menu</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                class="size-6 in-aria-expanded:hidden">
+                <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                class="size-6 not-in-aria-expanded:hidden">
+                <path d="M6 18 18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
           </div>
+
+          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
+            <div class="flex shrink-0 items-center text-white">
+              AnimeT
+            </div>
+            <div class="hidden sm:ml-6 sm:block" id="mobile-menu">
+              <div class="flex space-x-4">
+                <a href="home.html"
+                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Characters</a>
+                <a href="anime.html"
+                  class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Animes</a>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-      
-    </div>
-  </div>
-
-  
-</nav>
+    </nav>
 
 
 
@@ -56,68 +64,108 @@ AnimeT        </div>
 
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4 mx-4">
-  <div><img class="aspect-3/2 w-full" src="src/itachi.png" />
-   <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Itachi Uchiha</li>
-   <li>Anime: Naruto </li> 
-   </ul>
-
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://i.pinimg.com/736x/4e/00/9a/4e009ad7cf2c339c46ef5d1644798755.jpg" alt="Itachi Uchiha" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Itachi Uchiha<br>
+      Anime: Naruto
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://i.pinimg.com/474x/bf/f0/1d/bff01dd0ae186d938f1af8ba127f12bd.jpg" alt="Monkey D Luffy" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Monkey D Luffy<br>
+      Anime: One Piece
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://m.media-amazon.com/images/M/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg" alt="Naruto Uzumaki" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Naruto Uzumaki<br>
+      Anime: Naruto
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full" src="https://upload.wikimedia.org/wikipedia/en/a/a4/Roronoa_Zoro.jpg" alt="Roronoa Zoro" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Roronoa Zoro<br>
+      Anime: One Piece
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2025/01/one-piece-log_fish-man-island-saga-still-sanji-cropped.jpeg" alt="Vinsmoke Sanji" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Vinsmoke Sanji<br>
+      Anime: One Piece
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://i.pinimg.com/736x/65/93/24/659324a53937e7e47e2ff13a99f5902f.jpg" alt="Senku Ishigami" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Senku Ishigami<br>
+      Anime: Dr.Stone
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://i.pinimg.com/736x/79/70/8f/79708fc353eea59243c0c592c4294f2e.jpg" alt="Guts" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Guts<br>
+      Anime/Manga: Berserk
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://upload.wikimedia.org/wikipedia/en/7/7e/Fullmetal_Alchemist_Brotherhood_key_visual.png" alt="Edward and Alphonse" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Edward and Alphonse<br>
+      Anime: Fullmetal Alchemist: Brotherhood
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQu94IvPnttgerrAMyEOHbC2mo_hwa-meZC-UadIjcOFSmCg6rb6NJplIc9KqBcnicY-qp_iQvOYSqwchu2go391hlGYjVDAEATn7L_j2g" alt="Chopper" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Chopper<br>
+      Anime: One Piece
+    </figcaption>
+  </figure>
+  <figure class="mx-auto w-full">
+    <img class="aspect-3/2 w-full"
+      src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDeqbmJkRG4bDUk6E2vrs3TNiyqV_Gjo4afVr3BeOmrPlYcjBeXET6hVa1B37scHxc18YWBrNBo3LZGUM71MUVoK8dmVB05AMEohOe-OY" alt="Seishirō Nagi" />
+    <figcaption class="text-black text-center mt-2">
+      Name: Seishirō Nagi<br>
+      Anime: Blue Lock
+    </figcaption>
+  </figure>
 </div>
-  <div><img class="aspect-3/2 w-full" src="src/luffy1.png" />
- <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Monkey D Luffy</li>
-   <li>Anime: One Piece </li> 
-   </ul></div>
-<div><img class="aspect-3/2 w-full" src="https://m.media-amazon.com/images/M/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_.jpg" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Naruto Uzumaki</li>
-   <li>Anime: Naruto</li> 
-   </ul></div>  
- <div><img class="aspect-3/2 w-full" src="https://upload.wikimedia.org/wikipedia/en/a/a4/Roronoa_Zoro.jpg" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Roronoa Zoro</li>
-   <li>Anime: One Piece </li> 
-   </ul></div>  
-  <div><img class="aspect-3/2 w-full" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2025/01/one-piece-log_fish-man-island-saga-still-sanji-cropped.jpeg" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Vinsmoke Sanji</li>
-   <li>Anime: One Piece </li> 
-   </ul></div>  
-<div><img class="aspect-3/2 w-full" src="https://i.pinimg.com/736x/65/93/24/659324a53937e7e47e2ff13a99f5902f.jpg" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Senku Ishigami</li>
-   <li>Anime: Dr.Stone </li> 
-   </ul></div> <div><img class="aspect-3/2 w-full" src="https://i.pinimg.com/736x/79/70/8f/79708fc353eea59243c0c592c4294f2e.jpg" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Guts</li>
-   <li>Anime/Manga: Berserk </li> 
-   </ul></div> <div><img class="aspect-3/2 w-full" src="https://upload.wikimedia.org/wikipedia/en/7/7e/Fullmetal_Alchemist_Brotherhood_key_visual.png" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Edward and Alphonse</li>
-   <li>Anime: Fullmetal Alchemist: Brotherhood
-  </li> 
+
+  </main>
 
 
-   </ul></div> <div><img class="aspect-3/2 w-full" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQu94IvPnttgerrAMyEOHbC2mo_hwa-meZC-UadIjcOFSmCg6rb6NJplIc9KqBcnicY-qp_iQvOYSqwchu2go391hlGYjVDAEATn7L_j2g" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Chopper</li>
-   <li>Anime: One Piece </li> 
-   </ul>
-  
-  </ul></div> <div><img class="aspect-3/2 w-full" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSDeqbmJkRG4bDUk6E2vrs3TNiyqV_Gjo4afVr3BeOmrPlYcjBeXET6hVa1B37scHxc18YWBrNBo3LZGUM71MUVoK8dmVB05AMEohOe-OY" /> <ul class="list-disc pl-5 text-black  mx-auto w-max">
-    <li>Name: Seishirō Nagi</li>
-   <li>Anime: Blue Lock </li> 
-   </ul>
-  
-  </div> 
-</div>
-</main>
-
- <script>
-  const button = document.getElementById('mobile-toggle');
-  const menu   = document.getElementById('mobile-menu');
-
-  if (button && menu) {
-    button.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-      const expanded = button.getAttribute('aria-expanded') === 'true';
-      button.setAttribute('aria-expanded',(!expanded).toString());
-    });
-  }
-</script>
 
 </body>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const button = document.getElementById('mobile-toggle');
+    const menu = document.getElementById('mobile-menu');
+
+    if (button && menu) {
+      button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+        const expanded = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', (!expanded).toString());
+
+        document.querySelector('#mobile-toggle svg:first-child').classList.toggle('hidden');
+        document.querySelector('#mobile-toggle svg:last-child').classList.toggle('hidden');
+      });
+    }
+  });
+</script>
+
 </html>
